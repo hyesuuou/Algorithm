@@ -121,7 +121,7 @@ void main(){
 
 void addq(int item){
 	if(rear == QUEUE_SIZE -1){   // 큐가 꽉 찬 경우
-		printf("QUEUE Full. Item not added.);
+		printf("QUEUE Full. Item not added.");
 		return;
 	}
 	queue[++rear] = item;
