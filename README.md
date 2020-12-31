@@ -12,4 +12,6 @@
 - [Memory](https://github.com/hyesuuou/Algorithm/blob/main/StudyNote/Time%20Complexity%2C%20Memory.md#memory)
 - [Input-Output](https://github.com/hyesuuou/Algorithm/blob/main/StudyNote/Input%2C%20Output%2C%20풀이요령.md#입출력)
 - [알고리즘 문제의 풀이요령](https://github.com/hyesuuou/Algorithm/blob/main/StudyNote/Input%2C%20Output%2C%20풀이요령.md#문제풀이요령)
+### ch2. 자료구조1
 - [Stack](https://github.com/hyesuuou/Algorithm/blob/main/StudyNote/Stack.md#stack-스택)
+- [Queue](https://github.com/hyesuuou/Algorithm/blob/main/StudyNote/Stack,%20Queue.md#queue-큐)
