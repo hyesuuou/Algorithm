@@ -135,3 +135,7 @@ int deleteq(){
 	return queue[++front];
 }
 ```
+---
+# Deque (double-ended queue) 덱
+
+덱은 **양 끝에서 데이터를 넣고 양 끝에서 뺄 수 있는 자료구조**로, 간단히 스택과 큐의 확장이라고 생각하면 편하다. 덱에는 4가지 포인터(push_front, push_back, pop_front, pop_back)가 있는데, 이중에서 2개를 어떻게 선택하느냐에 따라 스택이 될 수도, 큐가 될 수도 있다. 덱은 BFS 를 해결할때 많이 사용한다.
