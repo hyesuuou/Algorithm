@@ -1,6 +1,9 @@
 /**
  * 문제 - 백준 10845 (큐)
- * 메모 - 시간초과가 났다..
+ * 메모 - 이 문제를 풀때 시간초과, 런타임에러, 틀렸습니다를 모두 봤다..
+ * 1. 시간초과 ? - 처음에 Scanner를 사용했을 때 봤다. 그래서 bufferedreader와 writer로 바꿨다.
+ * 2. 런타임에러 ? - queue 배열 크기가 잘못되었던 것 같다. t로 바꿔줬더니 해결되었다.
+ * 3. 틀렸습니다. ? - pop에서 숫자 출력을 빼먹었다. 다시 넣어도 틀렸습니다 나오길래 잘 봤더니 이번엔 개행문자를 까먹었다.
  */
 import java.io.*;
 import java.util.StringTokenizer;
@@ -10,7 +13,7 @@ public class Main10845 {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         int t = Integer.parseInt(bf.readLine());
-        int queue [] = new int[100];
+        int queue [] = new int[t];
         int begin = 0, end =0;
 
         while (t-- >0){
@@ -26,7 +29,7 @@ public class Main10845 {
                     bw.write("-1\n");
                 }
                 else{
-                    queue[begin++]=0;
+                    bw.write(queue[begin++]+"\n");
                 }
             }
             else if (com.equals("size")){
