@@ -16,3 +16,9 @@
 - [Stack](https://github.com/hyesuuou/Algorithm/blob/main/StudyNote/Stack,%20Queue,%20Deque.md#stack-스택)
 - [Queue](https://github.com/hyesuuou/Algorithm/blob/main/StudyNote/Stack,%20Queue,%20Deque.md#queue-큐)
 - [Deque](https://github.com/hyesuuou/Algorithm/blob/main/StudyNote/Stack,%20Queue,%20Deque.md#deque-double-ended-queue-덱)
+
+### ch3. 수학1
+- [Modular Arithmetic 나머지연산](https://github.com/hyesuuou/Algorithm/blob/main/StudyNote/03.%20수학1.md#modular-arithmetic-나머지연산)
+- [GCD 최대공약수](https://github.com/hyesuuou/Algorithm/blob/main/StudyNote/03.%20수학1.md#greatest-common-divisor---gcd-최대공약수)
+- [LCM 최소공배수](https://github.com/hyesuuou/Algorithm/blob/main/StudyNote/03.%20수학1.md#least-common-multiple---lcm-최소공배수)
+- [Prime Number 소수](https://github.com/hyesuuou/Algorithm/blob/main/StudyNote/03.%20수학1.md#prime-number-소수)
