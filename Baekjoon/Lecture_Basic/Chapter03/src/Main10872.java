@@ -1,3 +1,8 @@
+/**
+ * 문제 - 백준 10872 (팩토리얼)
+ * while 문 이용해서 구현한 코드
+ */
+
 import java.io.*;
 
 public class Main10872 {
