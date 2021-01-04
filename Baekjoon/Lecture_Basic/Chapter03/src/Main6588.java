@@ -6,6 +6,7 @@
  * - a<b 라는 조건을 빼먹었었다.
  * 버퍼 사용하면 - 37092KB 620ms
  * 스캐너사용하면 - 73040KB 1020ms
+ * Stringbuilder 사용하면 - 33524KB 620ms
  */
 
 import java.io.*;
@@ -14,6 +15,7 @@ public class Main6588 {
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        StringBuilder sb = new StringBuilder();
         int a, b=0;
         while (true){
             a = -1;
@@ -26,7 +28,9 @@ public class Main6588 {
                     if (primetrue(b) && (2*i+3)<=b){
                         a = 2*i+3;
                         b = n-a;
-                        bw.write(n + " = "); bw.write(a + " + "); bw.write(b+"\n");
+                        //bw.write(n + " = "); bw.write(a + " + "); bw.write(b+"\n");
+                        sb.append(n + " = " + a + " + " + b + "\n");
+
                         break;
                     }
                 }
@@ -34,6 +38,7 @@ public class Main6588 {
 
             if (a==-1) bw.write("Goldbach's conjecture is wrong.\n");
         }
+        bw.write(sb.toString());
         bw.flush();
         bw.close();
     }
