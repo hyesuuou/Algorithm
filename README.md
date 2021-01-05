@@ -22,3 +22,9 @@
 - [GCD 최대공약수](https://github.com/hyesuuou/Algorithm/blob/main/StudyNote/03.%20수학1.md#greatest-common-divisor---gcd-최대공약수)
 - [LCM 최소공배수](https://github.com/hyesuuou/Algorithm/blob/main/StudyNote/03.%20수학1.md#least-common-multiple---lcm-최소공배수)
 - [Prime Number 소수](https://github.com/hyesuuou/Algorithm/blob/main/StudyNote/03.%20수학1.md#prime-number-소수)
+- [Factorial 팩토리얼](https://github.com/hyesuuou/Algorithm/blob/main/StudyNote/03.%20수학1.md#factorial-팩토리얼)
+
+### ch4. Dynamic Programming
+- [Dynamic Programming](https://github.com/hyesuuou/Algorithm/blob/main/StudyNote/04.%20Dynamic%20Programming.md#dynamic-programming-동적계획법)
+- [구현방식](https://github.com/hyesuuou/Algorithm/blob/main/StudyNote/04.%20Dynamic%20Programming.md#dynamic-programming-의-구현방식)
+- [풀이법](https://github.com/hyesuuou/Algorithm/blob/main/StudyNote/04.%20Dynamic%20Programming.md#dynamic-programming-의-풀이법)
